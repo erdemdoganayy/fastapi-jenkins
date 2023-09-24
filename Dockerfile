@@ -10,3 +10,5 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 COPY ./app ./app
 
+EXPOSE 9000
+
